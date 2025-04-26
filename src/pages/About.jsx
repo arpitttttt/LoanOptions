@@ -1,10 +1,13 @@
 import React from 'react'
+import LoanOptionsBanner from '../AboutComponents/AboutHeroSection'
+import FinanceTeamSection from '../AboutComponents/OurTeam'
 
 const About = () => {
   return (
-    <div>
-      Heeloo
-    </div>
+    <>
+      <LoanOptionsBanner />
+      <FinanceTeamSection />
+    </>
   )
 }
 
